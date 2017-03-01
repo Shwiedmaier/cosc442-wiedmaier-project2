@@ -16,10 +16,7 @@ public class Rectangle {
 	 * @param p2 the p2
 	 */
 	Rectangle(Point p1, Point p2) {
-		System.out.println(p2.x);
-		System.out.println(p1.x);
-		System.out.println(p2.y);
-		System.out.println(p1.y);
+			
 		this.p1 = p1;
 		this.p2 = p2;
 	}
@@ -31,7 +28,7 @@ public class Rectangle {
 	 */
 	public Double getArea() {
 		
-		
+		System.out.println("Returning the area of a Rectangle with points (" + p2.x + ", " + p2.y + ") and (" + p1.x + ", " + p1.y + ")");
 		return Math.abs((p2.x - p1.x) * (p2.y - p1.y));
 	}
 	
